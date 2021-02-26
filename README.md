@@ -29,3 +29,11 @@ The Kaggle Team will refresh the leaderboard throughout the competition as games
 
 -------
 
+## Evaluation
+
+Submissions are scored on the log loss
+
+
+-------
+
+
