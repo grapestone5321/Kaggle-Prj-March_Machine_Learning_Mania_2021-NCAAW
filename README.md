@@ -36,4 +36,30 @@ Submissions are scored on the log loss
 
 -------
 
+## Progress
+
+### Public Best LB Score:  0.44071
+
+### Private Score:
+
+
+
+-------
+
+## 2021 NCAAW Basketball Tournament LightGBM
+
+### 'learning_rate': 0.009   default     
+                   
+      'learning_rate': 0.009    LB 0.44091    ver1    default
+      'learning_rate': 0.01     LB 0.44071    ver2
+      'learning_rate': 0.015    LB 0.44207    ver3
+      'learning_rate': 0.011    LB 0.44169    ver4
+
+### 'num_leaves': 32
+
+'learning_rate': 0.01:
+
+      'num_leaves': 32    LB 0.44071    ver2
+      'num_leaves': 64    LB 0.44071    ver5
+
 
