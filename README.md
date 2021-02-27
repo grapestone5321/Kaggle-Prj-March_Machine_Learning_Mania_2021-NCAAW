@@ -50,8 +50,9 @@ Submissions are scored on the log loss
 
 ### 'learning_rate': 0.009   default     
                    
-      'learning_rate': 0.009    LB 0.44091    ver1    default
+      'learning_rate': 0.009    LB 0.44091    ver1    #default
       'learning_rate': 0.01     LB 0.44071    ver2
+      'learning_rate': 0.011    LB 0.44169    ver6
       'learning_rate': 0.015    LB 0.44207    ver3
       'learning_rate': 0.011    LB 0.44169    ver4
 
@@ -59,7 +60,28 @@ Submissions are scored on the log loss
 
 'learning_rate': 0.01:
 
+      'num_leaves': 16    LB 0.44171    ver7
       'num_leaves': 32    LB 0.44071    ver2
       'num_leaves': 64    LB 0.44071    ver5
+
+
+-------
+
+## NCAAW 2021 - LGB w/ FE on three Datasets
+https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
+
+
+### 'learning_rate': 0.05   #default
+
+
+      'learning_rate': 0.06     LB 0.44590    ver3
+      'learning_rate': 0.05     LB 0.44527    ver1     #default
+      'learning_rate': 0.04     LB 0.44321    ver4
+      'learning_rate': 0.03     LB 0.44419    ver5     
+      'learning_rate': 0.01     LB 0.50073    ver2
+
+
+-------
+
 
 
