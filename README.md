@@ -60,9 +60,10 @@ Submissions are scored on the log loss
 
 'learning_rate': 0.01:
 
-      'num_leaves': 16    LB 0.44171    ver7
-      'num_leaves': 32    LB 0.44071    ver2
-      'num_leaves': 64    LB 0.44071    ver5
+      'num_leaves': 16     LB 0.44171    ver7
+      'num_leaves': 32     LB 0.44071    ver2
+      'num_leaves': 64     LB 0.44071    ver5
+      'num_leaves': 128    LB 0.44071    ver9
 
 
 -------
@@ -83,5 +84,14 @@ https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
 
 -------
 
+## 2021-NCAAW-Basketball-LightGBM-2
 
+### 'learning_rate': 0.05   #default
 
+      'learning_rate': 0.08     LB 0.44012    ver5
+      'learning_rate': 0.07     LB 0.43946    ver4   --- Best
+      'learning_rate': 0.06     LB 0.43964    ver3
+      'learning_rate': 0.05     LB 0.43994    ver1     #default
+      'learning_rate': 0.04     LB 0.44064    ver2
+           
+     
