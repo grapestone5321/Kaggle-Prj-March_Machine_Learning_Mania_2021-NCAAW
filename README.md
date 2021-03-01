@@ -38,7 +38,7 @@ Submissions are scored on the log loss
 
 ## Progress
 
-### Public Best LB Score:  0.44071
+### Public Best LB Score: 0.42701
 
 ### Private Score:
 
@@ -88,10 +88,16 @@ https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
 
 ### 'learning_rate': 0.05   #default
 
-      'learning_rate': 0.08     LB 0.44012    ver5
-      'learning_rate': 0.07     LB 0.43946    ver4   --- Best
-      'learning_rate': 0.06     LB 0.43964    ver3
-      'learning_rate': 0.05     LB 0.43994    ver1     #default
-      'learning_rate': 0.04     LB 0.44064    ver2
+      'learning_rate': 0.08     LB 0.44012     ver5
+      'learning_rate': 0.071    LB 0.43944     ver6   --- Best
+      'learning_rate': 0.07     LB 0.43946     ver4
+      'learning_rate': 0.06     LB 0.43964     ver3
+      'learning_rate': 0.05     LB 0.43994     ver1     #default
+      'learning_rate': 0.04     LB 0.44064     ver2
            
-     
+  
+-------  
+  
+## NCAA W 2021 | Linear Regression
+  
+      Public Score: 0.42701
