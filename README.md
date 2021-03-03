@@ -112,6 +112,7 @@ https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
 ### N_SPLITS = 10
 
       N_SPLITS = 10     LB 0.42428     ver1
+      N_SPLITS = 14     LB 0.42430     ver4
       N_SPLITS = 15     LB 0.42034     ver2   --- Best
       N_SPLITS = 20     LB 0.42195     ver3
 
