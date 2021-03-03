@@ -101,3 +101,20 @@ https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
 ## NCAA W 2021 | Linear Regression
   
       Public Score: 0.42701
+
+
+
+-------
+
+## NCAAW-ModelBuild
+
+
+### N_SPLITS = 10
+
+#N_SPLITS = 10
+#N_SPLITS = 15
+N_SPLITS = 20
+
+
+-------
+
