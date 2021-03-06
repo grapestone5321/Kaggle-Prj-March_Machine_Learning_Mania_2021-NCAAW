@@ -119,3 +119,21 @@ https://www.kaggle.com/tnmasui/ncaaw-2021-lgb-w-fe-on-three-datasets
 
 -------
 
+## 2021 NCAAW First Step V.2
+https://www.kaggle.com/svyatoslavsokolov/2021-ncaaw-first-step-v-2
+
+
+       Public Score: 0.44855    ver1
+
+
+       Public Score: 0.40738    ver2
+       Public Score: 0.41068    ver3
+       Public Score: 0.41580    ver4
+       Public Score: 0.40634    ver5
+
+
+
+-------
+
+
+
