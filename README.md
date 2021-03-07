@@ -125,11 +125,27 @@ https://www.kaggle.com/svyatoslavsokolov/2021-ncaaw-first-step-v-2
 
        Public Score: 0.44855    ver1
 
+n_splits=10:
 
        Public Score: 0.40738    ver2
        Public Score: 0.41068    ver3
        Public Score: 0.41580    ver4
        Public Score: 0.40634    ver5
+
+### kf = KFold(n_splits=10, shuffle=True)
+kf = KFold(n_splits=12, shuffle=True)
+
+      n_splits= 8          LB 0.46692     ver7
+      n_splits= 9          LB 0.44017     ver8
+      n_splits=10          LB 0.40634     ver5
+      n_splits=11          LB 0.40124     ver9   --- Best
+      n_splits=12          LB 0.53842     ver6
+
+n_splits=11:
+
+      Public Score: 0.40124     ver9   --- Best
+      Public Score: 0.41283     ver10
+
 
 
 
