@@ -138,17 +138,29 @@ kf = KFold(n_splits=12, shuffle=True)
       n_splits= 8          LB 0.46692     ver7
       n_splits= 9          LB 0.44017     ver8
       n_splits=10          LB 0.40634     ver5
-      n_splits=11          LB 0.40124     ver9   --- Best
+      n_splits=11          LB 0.40124     ver9   --- (Best)
       n_splits=12          LB 0.53842     ver6
 
 n_splits=11:
 
-      Public Score: 0.40124     ver9   --- Best
+      Public Score: 0.40124     ver9   --- (Best)
       Public Score: 0.41283     ver10
 
 
+### early_stopping_rounds = 100
+                  
+n_splits=11:
 
-
+      early_stopping_rounds = 100     LB 0.40124     ver9
+      early_stopping_rounds = 150     LB 0.42256     ver14
+      early_stopping_rounds = 200     LB 0.40087     ver11   --- Best
+      early_stopping_rounds = 225     LB 0.41897     ver15
+      early_stopping_rounds = 250     LB 0.39294     ver13
+      early_stopping_rounds = 300     LB 0.42062     ver12
+      
+      
+      
+      
 -------
 
 
