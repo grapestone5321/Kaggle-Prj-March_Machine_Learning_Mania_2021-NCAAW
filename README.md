@@ -173,7 +173,7 @@ https://www.kaggle.com/imoore/2019m-1st-solution-with-parameter-optimization
        max_depth = 12     LB 0.35608     ver4     
        max_depth = 14     LB 0.35600     ver9
        max_depth = 15     LB 0.35599     ver10
-       max_depth = 16     LB 0.35599     ver5   --- Best
+       max_depth = 16     LB 0.35599     ver5   --- (Best)
        max_depth = 20     LB 0.35599     ver6
        max_depth = 24     LB 0.35599     ver7
 
@@ -184,9 +184,9 @@ https://www.kaggle.com/imoore/2019m-1st-solution-with-parameter-optimization
 
 max_depth = 16:
        
-       num_parallel_tree = 10  LB 0.35599     ver5   --- Best
-       num_parallel_tree = 12
-       
+       num_parallel_tree = 10  LB 0.35599     ver5
+       num_parallel_tree = 12  LB 0.35413     ver11   --- Best  
+       num_parallel_tree = 14  LB      ver
        
        
        
