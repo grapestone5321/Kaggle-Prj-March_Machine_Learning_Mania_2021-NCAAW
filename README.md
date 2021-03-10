@@ -160,7 +160,24 @@ n_splits=11:
       
       
       
-      
+-------
+
+## 2019M 1st Solution (With parameter optimization)
+https://www.kaggle.com/imoore/2019m-1st-solution-with-parameter-optimization
+
+
+### max_depth = 4)
+
+       max_depth = 4      LB 0.42062     ver1
+       max_depth = 8      LB 0.35872     ver3
+       max_depth = 12     LB 0.35608     ver4
+       
+       max_depth = 14     LB      ver9
+       
+       max_depth = 16     LB 0.35599     ver5   --- Best
+       max_depth = 20     LB 0.35599     ver6
+       max_depth = 24     LB 0.35599     ver7
+
 -------
 
 
