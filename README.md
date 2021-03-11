@@ -185,13 +185,18 @@ https://www.kaggle.com/imoore/2019m-1st-solution-with-parameter-optimization
 max_depth = 16:
        
        num_parallel_tree = 10  LB 0.35599     ver5
-       num_parallel_tree = 11  LB      ver
-       num_parallel_tree = 12  LB 0.35413     ver11   --- Best
+       num_parallel_tree = 11  LB 0.35404     ver14   --- Best
+       num_parallel_tree = 12  LB 0.35413     ver11
        num_parallel_tree = 13  LB 0.35469     ver13
        num_parallel_tree = 14  LB 0.35585     ver12
        
        
-       
+### min_child_weight = 40,
+
+num_parallel_tree = 11:
+ 
+       min_child_weight = 40      LB 0.35404     ver14   --- Best
+       min_child_weight = 44      LB      ver15
        
 -------
 
