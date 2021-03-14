@@ -201,9 +201,10 @@ num_parallel_tree = 11:
        min_child_weight = 40      LB 0.35404     ver14
        min_child_weight = 44      LB 0.36103     ver15
        
-       
-       
+### subsample = 0.7
 
+       subsample = 0.7     LB      ver
+       subsample = 0.8     LB 0.22895     ver29
        
 -------
 
