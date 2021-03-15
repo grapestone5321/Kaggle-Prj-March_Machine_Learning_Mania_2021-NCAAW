@@ -217,7 +217,7 @@ min_child_weight =  2:
        
 ### eta = 0.02
 
-min_child_weight =  2, gamma = 10:
+min_child_weight =  2, gamma = 10, subsample = 0.7
        
        eta = 0.02         LB 0.23180     ver25   --- (Best)
        eta = 0.04         LB 0.23207     ver27
@@ -225,14 +225,17 @@ min_child_weight =  2, gamma = 10:
 
 ### subsample = 0.7
 
+eta = 0.02:
+
+       subsample = 0.7     LB 0.23180     ver25   --- (Best)
+       subsample = 0.8     LB 0.22896     ver30
+
 eta = 0.04:
 
        subsample = 0.8     LB 0.22895     ver29
+       subsample = 0.9     LB      ver31
 
-eta = 0.02:
 
-       subsample = 0.7     LB      ver
-       subsample = 0.8     LB     ver29
              
        
        
