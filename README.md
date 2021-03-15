@@ -194,17 +194,47 @@ max_depth = 16:
 ### min_child_weight = 40,
 
 num_parallel_tree = 11:
-
+      
+       min_child_weight =  2      LB 0.23180     ver25   --- (Best)
+       min_child_weight =  4      LB 0.24238     ver24
+       min_child_weight =  8      LB 0.26539     ver23
+       min_child_weight = 12      LB 0.28305     ver22
+       min_child_weight = 16      LB 0.29529     ver21
+       min_child_weight = 20      LB 0.30797     ver20
+       min_child_weight = 24      LB 0.32040     ver19
        min_child_weight = 28      LB 0.33273     ver18
        min_child_weight = 32      LB 0.34291     ver17
-       min_child_weight = 36      LB 0.35069     ver16   --- Best
+       min_child_weight = 36      LB 0.35069     ver16
        min_child_weight = 40      LB 0.35404     ver14
        min_child_weight = 44      LB 0.36103     ver15
+
+### gamma = 10
+
+min_child_weight =  2:
+
+       gamma = 10          LB 0.23180     ver25   --- (Best)
+       gamma = 12          LB 0.23186     ver26
        
+### eta = 0.02
+
+min_child_weight =  2, gamma = 10:
+       
+       eta = 0.02         LB 0.23180     ver25   --- (Best)
+       eta = 0.04         LB 0.23207     ver27
+       eta = 0.1          LB 0.23314     ver28
+
 ### subsample = 0.7
 
-       subsample = 0.7     LB      ver
+eta = 0.04:
+
        subsample = 0.8     LB 0.22895     ver29
+
+eta = 0.02:
+
+       subsample = 0.7     LB      ver
+       subsample = 0.8     LB     ver29
+             
+       
        
 -------
 
