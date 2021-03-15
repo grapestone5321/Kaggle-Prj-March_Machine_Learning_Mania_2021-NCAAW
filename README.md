@@ -233,11 +233,21 @@ eta = 0.02:
 eta = 0.04:
 
        subsample = 0.8     LB 0.22895     ver29
-       subsample = 0.9     LB      ver31
+       subsample = 0.9     LB 0.22839     ver31   --- (Best)
 
-
+subsample = 0.9:
              
+       min_child_weight =  1      LB 0.22490     ver32   --- Best
+       min_child_weight =  2      LB 0.22839     ver31
        
+min_child_weight =  1:
+
+       colsample_bytree = 0.5     LB      ver33
+       colsample_bytree = 0.8     LB 0.22490     ver32   --- Best
+       
+       
+       
+
        
 -------
 
