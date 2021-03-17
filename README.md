@@ -237,19 +237,41 @@ eta = 0.04:
 
 subsample = 0.9:
              
-       min_child_weight =  1      LB 0.22490     ver32   --- Best
+       min_child_weight =  1      LB 0.22490     ver32   --- (Best)
        min_child_weight =  2      LB 0.22839     ver31
        
 min_child_weight =  1:
 
-       colsample_bytree = 0.5     LB      ver33
-       colsample_bytree = 0.8     LB 0.22490     ver32   --- Best
+       colsample_bytree = 0.5     LB 0.21499     ver33   --- Best
+       colsample_bytree = 0.8     LB 0.22490     ver32
        
        
-       
-
-       
+            
 -------
+
+### xgb_parameters = 
+      list(objective = cauchyobj, 
+      eval_metric = "mae",
+      booster = "gbtree", 
+       
+       eta = 0.04,
+       subsample = 0.9,
+       colsample_bytree = 0.5,       
+       num_parallel_tree = 11,       
+       min_child_weight = 1,       
+       gamma = 10,
+       max_depth = 16
+
+-------
+
+      regresults <- read.csv("../input/ncaaw-march-mania-2021/WRegularSeasonDetailedResults.csv")
+      results <- read.csv("../input/ncaaw-march-mania-2021/WNCAATourneyDetailedResults.csv")
+      sub <- read.csv("../input/ncaaw-march-mania-2021/WSampleSubmissionStage1.csv")
+      seeds <- read.csv("../input/ncaaw-march-mania-2021/WNCAATourneySeeds.csv")
+
+-------
+
+
 
 
 
