@@ -254,7 +254,9 @@ min_child_weight =  1:
       eval_metric = "mae",
       booster = "gbtree", 
        
+       eta = 0.02,
        eta = 0.04,
+       
        subsample = 0.9,
        colsample_bytree = 0.5,       
        num_parallel_tree = 11,       
@@ -271,7 +273,30 @@ min_child_weight =  1:
 
 -------
 
+## Stage2
+
+      import os
+      for dirname, _, filenames in os.walk('/kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2'):
+          for filename in filenames:
+              print(os.path.join(dirname, filename))
+
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/Conferences.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneyDetailedResults.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WRegularSeasonCompactResults.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WGameCities.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneySlots.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/Cities.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeams.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneyCompactResults.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WSeasons.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneySeeds.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WRegularSeasonDetailedResults.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WSampleSubmissionStage2.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeamSpellings.csv
+      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeamConferences.csv
 
 
+
+-------
 
 
