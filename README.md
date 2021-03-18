@@ -276,26 +276,23 @@ min_child_weight =  1:
 ## Stage2
 
       import os
-      for dirname, _, filenames in os.walk('/kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2'):
-          for filename in filenames:
-              print(os.path.join(dirname, filename))
-
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/Conferences.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneyDetailedResults.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WRegularSeasonCompactResults.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WGameCities.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneySlots.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/Cities.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeams.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneyCompactResults.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WSeasons.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WNCAATourneySeeds.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WRegularSeasonDetailedResults.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WSampleSubmissionStage2.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeamSpellings.csv
-      /kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2/WTeamConferences.csv
+      os.listdir('/kaggle/input/ncaaw-march-mania-2021/WDataFiles_Stage2')
 
 
+      ['Conferences.csv',
+       'WNCAATourneyDetailedResults.csv',
+       'WRegularSeasonCompactResults.csv',
+       'WGameCities.csv',
+       'WNCAATourneySlots.csv',
+       'Cities.csv',
+       'WTeams.csv',
+       'WNCAATourneyCompactResults.csv',
+       'WSeasons.csv',
+       'WNCAATourneySeeds.csv',
+       'WRegularSeasonDetailedResults.csv',
+       'WSampleSubmissionStage2.csv',
+       'WTeamSpellings.csv',
+       'WTeamConferences.csv']
 
 -------
 
