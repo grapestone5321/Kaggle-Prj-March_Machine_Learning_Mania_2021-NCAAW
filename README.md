@@ -304,4 +304,8 @@ min_child_weight =  1:
 
 -------
 
+## Stage2
+
+      15 days to go:   LB 0.34893      -> 18
+
 
