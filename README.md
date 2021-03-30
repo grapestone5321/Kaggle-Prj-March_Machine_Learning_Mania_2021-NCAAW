@@ -306,7 +306,9 @@ min_child_weight =  1:
 
 ## Stage2
 
-      10 days to go:    LB 0.38732      -> 45 
+      10 days to go:    LB 0.38732      -> 45
+       8 days to go:    LB 0.40605      -> 16
+      
       
 
 
