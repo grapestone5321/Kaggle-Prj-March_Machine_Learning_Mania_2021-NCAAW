@@ -40,9 +40,6 @@ Submissions are scored on the log loss
 
 ### Public Best LB Score: 0.42701
 
-### Private Score:
-
-
 
 -------
 
@@ -306,9 +303,12 @@ min_child_weight =  1:
 
 ## Stage2
 
-      10 days to go:    LB 0.38732      -> 45
-       8 days to go:    LB 0.40605      -> 16
-      
+
+
+### Public Best LB Score: 0.45082
+
+### Private Score: 0.45082
       
 
+-------
 
